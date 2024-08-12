@@ -7,7 +7,7 @@ import { GrFormNextLink } from "react-icons/gr";
 
 const HeroInfo = () => {
   return (
-    <div className="w-full h-svh flex justify-between items-center flex-col pb-5">
+    <div className="w-full h-svh flex justify-between items-center flex-col py-5">
       <header className="w-full h-16 flex justify-between items-center">
         <Link href="/" className="h-full w-auto">
           <Image
