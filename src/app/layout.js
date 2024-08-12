@@ -14,11 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
-      <body className={tajawal.className}>
-        <div className="w-full max-w-[1950px] mx-auto md:px-10 px-5">
-          {children}
-        </div>
-      </body>
+      <body className={tajawal.className}>{children}</body>
     </html>
   );
 }
