@@ -1,9 +1,9 @@
-import HeroInfo from "./utilities/HeroInfo";
+import HeroImg from "./utilities/HeroImg";
 
 export default function Home() {
   return (
     <main className="w-full">
-      <HeroInfo />
+      <HeroImg />
     </main>
   );
 }
