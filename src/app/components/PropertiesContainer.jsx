@@ -93,7 +93,9 @@ const PropertiesContainer = () => {
     <div className="w-screen bg-black">
       <div className="w-full max-w-[1950px] mx-auto md:px-10 py-20 px-5 text-white">
         <div className="w-full flex justify-between items-center md:flex-row flex-col gap-5">
-          <h2 className="text-4xl font-black">اكتشف بورتفوليو عقاراتنا</h2>
+          <h2 className="text-4xl font-black text-center">
+            اكتشف بورتفوليو عقاراتنا
+          </h2>
           <div className="bg-zinc-700 flex justify-center items-center p-1 rounded-md">
             <button className="px-5 py-2 hover:bg-zinc-300 transition-all rounded-lg bg-white text-black">
               شقق
