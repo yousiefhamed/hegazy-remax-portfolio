@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import PropertiesContainer from "./components/PropertiesContainer";
 import SliderTxt from "./components/SliderTxt";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Hero />
       <SliderTxt />
+      <PropertiesContainer />
     </main>
   );
 }
