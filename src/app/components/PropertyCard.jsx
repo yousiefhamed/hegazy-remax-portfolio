@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import { GrFormNextLink } from "react-icons/gr";
 import { CiLocationOn } from "react-icons/ci";
 
@@ -5,7 +7,7 @@ const PropertyCard = ({ property }) => {
   const { image, title, category, location, price, features } = property;
 
   return (
-    <div
+    <motion.div
       style={{
         backgroundImage: `url('${image}')`,
         backgroundRepeat: "no-repeat",
@@ -14,6 +16,8 @@ const PropertyCard = ({ property }) => {
         backgroundSize: "cover",
       }}
       className="property w-full h-[500px] rounded-2xl flex justify-between items-start flex-col p-5 cursor-pointer"
+      initial={{ scale: 0.8 }}
+      whileInView={{ scale: 1 }}
     >
       <div className="w-full flex justify-between items-center">
         <p className="text-4xl flex justify-center items-center gap-2">
@@ -44,7 +48,7 @@ const PropertyCard = ({ property }) => {
           شقة في التجمع الخامس كمباوند التجمع
         </h3>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
